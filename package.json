@@ -1,0 +1,22 @@
+{
+  "name": "qa-programming-challenge",
+  "version": "1.0.0",
+  "description": "automation demo project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nova360/qa-programming-challenge.git"
+  },
+  "author": "Phillip Newman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nova360/qa-programming-challenge/issues"
+  },
+  "homepage": "https://github.com/Nova360/qa-programming-challenge#readme",
+  "devDependencies": {
+    "webdriverio": "^7.7.7"
+  }
+}
