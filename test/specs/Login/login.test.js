@@ -5,12 +5,13 @@ const inventoryPage = require("../../../pageObjects/inventory.page")
 const data = require("../../../data/user");
 const { login } = require("../../../pageObjects/login.page");
 
-describe("Login", function () {
+describe("Login page tests", function () {
     it("Should log into web application", () => {
         browser.url('/');
         loginPage.h4Header.waitForDisplayed()
         assert.equal("Accepted usernames are:", loginPage.h4Header.getText())
         loginPage.login(data.standardUser)
+        inventoryPage.pageTitle.waitForDisplayed()
         assert.equal("PRODUCTS", inventoryPage.pageTitle.getText())
 
     });
@@ -21,6 +22,6 @@ describe("Login", function () {
         loginPage.errorField.isDisplayed()
         assert.equal("Epic sadface: Sorry, this user has been locked out.", loginPage.errorField.getText())
         browser.pause(3000)
-    })
+    });
 
 })
