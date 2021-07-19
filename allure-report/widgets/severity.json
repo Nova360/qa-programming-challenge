@@ -1,0 +1,161 @@
+[ {
+  "uid" : "c817c2dac7558c25",
+  "name" : "Should sort the inventory Name(A to Z) ",
+  "time" : {
+    "start" : 1626698661736,
+    "stop" : 1626698661844,
+    "duration" : 108
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b1379c35b8cd408",
+  "name" : "Should be unable to log in",
+  "time" : {
+    "start" : 1626698602072,
+    "stop" : 1626698605381,
+    "duration" : 3309
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "484085451e820d1d",
+  "name" : "Should be able to log in/out of the application as a problem user",
+  "time" : {
+    "start" : 1626698601526,
+    "stop" : 1626698602072,
+    "duration" : 546
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e72af0593886ff15",
+  "name" : "Should confirm that the inventory list is displayed and view a single product",
+  "time" : {
+    "start" : 1626698660360,
+    "stop" : 1626698661581,
+    "duration" : 1221
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8144be466e3fd01",
+  "name" : "Should add product to cart from single item view",
+  "time" : {
+    "start" : 1626698680895,
+    "stop" : 1626698681202,
+    "duration" : 307
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f46c73d4492f6092",
+  "name" : "Should confirm that each product has an price displayed",
+  "time" : {
+    "start" : 1626698662154,
+    "stop" : 1626698662253,
+    "duration" : 99
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "85b8179d1fd44454",
+  "name" : "Should view cart and remove product",
+  "time" : {
+    "start" : 1626698681204,
+    "stop" : 1626698681356,
+    "duration" : 152
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "81884bdc1cb90fcc",
+  "name" : "Should sort the inventory Price(high to low) ",
+  "time" : {
+    "start" : 1626698661946,
+    "stop" : 1626698662055,
+    "duration" : 109
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d03c9322d61bcddd",
+  "name" : "Should sort the inventory Price(low to high) ",
+  "time" : {
+    "start" : 1626698661581,
+    "stop" : 1626698661736,
+    "duration" : 155
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e34aa49e93ee6729",
+  "name" : "Should confirm that each product has an label displayed",
+  "time" : {
+    "start" : 1626698662253,
+    "stop" : 1626698662373,
+    "duration" : 120
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "288ad7fc6ae1e23f",
+  "name" : "Should sort the inventory Name(Z to A) ",
+  "time" : {
+    "start" : 1626698661844,
+    "stop" : 1626698661946,
+    "duration" : 102
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "271b6c2d562593d1",
+  "name" : "Should add a product to and view cart",
+  "time" : {
+    "start" : 1626698680036,
+    "stop" : 1626698680893,
+    "duration" : 857
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bbf7112869aaf92e",
+  "name" : "Should confirm that each product has an description displayed",
+  "time" : {
+    "start" : 1626698662373,
+    "stop" : 1626698662516,
+    "duration" : 143
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26d23f2829017960",
+  "name" : "Should confirm that each product has an image displayed",
+  "time" : {
+    "start" : 1626698662055,
+    "stop" : 1626698662154,
+    "duration" : 99
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6082a14b64d8607",
+  "name" : "Should remove product from cart (Inventory view)",
+  "time" : {
+    "start" : 1626698681202,
+    "stop" : 1626698681204,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "95862481e3393d8c",
+  "name" : "Should be able to log in/out of the web application as a standard user",
+  "time" : {
+    "start" : 1626698600235,
+    "stop" : 1626698601526,
+    "duration" : 1291
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

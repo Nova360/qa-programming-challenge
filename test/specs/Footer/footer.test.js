@@ -14,24 +14,36 @@ describe("Footer tests", function () {
         expect(footerPage.footer.isDisplayed()).equals(true)
     })
 
-    // it("Should open twitter link in a new tab", () => {
+    it("Should open twitter link in a new tab", () => {
+        footerPage.footerLink(1)
+        browser.switchWindow(/twitter/i);
+        assert.equal("https://twitter.com/saucelabs", browser.getUrl())
+       browser.closeWindow()
+    })
 
-    // })
-
-    // it("Should open facebook link in a new tab", () => {
-
-    // })
-
-    // it("Should open linkedin link in a new tab", () => {
-
-    // })
+    it("Should open facebook link in a new tab", () => {
+        browser.switchWindow(/saucedemo/i);
+        footerPage.footerLink(2)
+        browser.switchWindow(/facebook/i);
+        assert.equal("https://www.facebook.com/saucelabs", browser.getUrl())
+        browser.closeWindow()
+    })
 
     it("Should confirm that footer is present on the cart page", () => {
-        //browser.url(`${ browser.options.baseUrl }/cart.html`)
-        //browser.pause(3000)
+        browser.switchWindow(/saucedemo/i);
         inventoryPage.cartBtn.click()
         footerPage.footer.waitForExist()
         //expect(footerPage.footer.isExisting()).equals(true)
         expect(footerPage.footer.isDisplayed()).equals(true)
     })
+
+    it("Should open linkedin link in a new tab", () => {
+        browser.switchWindow(/saucedemo/i);
+        footerPage.footerLink(3)
+        browser.switchWindow(/linkedin/i);
+        expect(browser).toHaveUrlContaining('linkedin')
+        //assert.equal("https://www.linkedin.com/company/sauce-labs/", browser.getUrl())
+        browser.closeWindow()
+    })
+
 })

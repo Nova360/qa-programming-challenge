@@ -3,5 +3,5 @@ module.exports = {
     lockedOut: process.env.LOCKED,
     problemUser: process.env.PROBLEM,
     glitchedUser: process.env.GLITCH,
-    password: process.env.PASSWORD
+    password: process.env.PASSWORD,
 };

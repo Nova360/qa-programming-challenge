@@ -30,6 +30,15 @@ exports.config = {
     suites: {
         inventory: [
             './test/specs/Inventory/inventory.test.js'
+        ],
+        footer: [
+            './test/specs/Footer/footer.test.js'
+        ],
+        cart: [
+            './test/specs/Cart/cart.test.js'
+        ],
+        login: [
+            './test/specs/Login/login.test.js'
         ]
     },
     // Patterns to exclude.
@@ -79,7 +88,7 @@ exports.config = {
     // Define all options that are relevant for the WebdriverIO instance here
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
-    logLevel: 'info',
+    logLevel: 'error',
     //
     // Set specific log levels per logger
     // loggers:
@@ -141,9 +150,11 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: ['spec', 'dot'],
-
-
+    reporters: [['allure', {
+        outputDir: 'allure-results',
+        disableWebdriverStepsReporting: true,
+        disableWebdriverScreenshotsReporting: true,
+    }],'spec'],
 
     //
     // Options to be passed to Mocha.

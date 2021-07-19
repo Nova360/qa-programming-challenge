@@ -14,5 +14,12 @@ class Login {
         this.passwordField.setValue(data.password)
         this.loginBtn.click()
     }
+
+    clearLogin(){
+        this.usernameField.click()
+        this.usernameField.clearValue()
+        this.passwordField.click()
+        this.passwordField.clearValue()
+    }
 }
 module.exports = new Login()
