@@ -41,8 +41,7 @@ describe("Footer tests", function () {
         browser.switchWindow(/saucedemo/i);
         footerPage.footerLink(3)
         browser.switchWindow(/linkedin/i);
-        expect(browser).toHaveUrlContaining('linkedin')
-        //assert.equal("https://www.linkedin.com/company/sauce-labs/", browser.getUrl())
+        assert.equal("https://www.linkedin.com/company/sauce-labs/", browser.getUrl())
         browser.closeWindow()
     })
 
