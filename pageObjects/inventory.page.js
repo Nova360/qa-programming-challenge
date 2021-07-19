@@ -1,3 +1,5 @@
+//const { default: $ } = require("webdriverio/build/commands/browser/$")
+
 const { default: $ } = require("webdriverio/build/commands/browser/$")
 
 class Inventory {
@@ -12,7 +14,7 @@ class Inventory {
     get productImg() { return $(".inventory_item_img") }
     get productPrice() { return $(".pricebar .inventory_item_price") }
     get sortList() { return $(".product_sort_container") }
-    get cart() { return $("#shopping_cart_container a") }
+    get cartBtn() { return $("#shopping_cart_container a") }
     get itemName() { return $(".inventory_details_name") }
 
     //Functions
@@ -21,5 +23,7 @@ class Inventory {
         $(`.inventory_item:nth-child(${ index }) .inventory_item_label a`).click()
         //return prodName
     }
+
+
 }
 module.exports = new Inventory()

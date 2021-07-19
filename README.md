@@ -9,7 +9,7 @@ QA programming challenge to demo automation capabilities.
 2. #### Launch-Tests
 
    Run **npm run test** to launch/run test script.
-
+  
    TODO:
    inventory page : 
    - view single product (Confirmation part is failing)
@@ -18,11 +18,17 @@ QA programming challenge to demo automation capabilities.
    cart:
    - add product to cart (add checks)
    - remove prod from cart (add checks)
-   - do above on single product view
-   - view cart
+   - do above on single product view (Partial Complete)
+   - view cart (DONE) 
+   - remove from cart page
+   -go back to shopping page(DONE)
+   - go to checkout page
+
 
    footer:
    - check all links in footer
+   check that footer appears on inventory and cart page 
+   
 
    logout:
    - logout as each user
