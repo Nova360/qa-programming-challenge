@@ -1,0 +1,38 @@
+{
+  "name": "qa-programming-challenge",
+  "version": "1.0.0",
+  "description": "automation demo project",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/.bin/wdio ./wdio.conf.js",
+    "inventory": "./node_modules/.bin/wdio ./wdio.conf.js --suite inventory"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nova360/qa-programming-challenge.git"
+  },
+  "author": "Phillip Newman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nova360/qa-programming-challenge/issues"
+  },
+  "homepage": "https://github.com/Nova360/qa-programming-challenge#readme",
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@wdio/cli": "^7.7.7",
+    "@wdio/dot-reporter": "^7.7.7",
+    "@wdio/local-runner": "^7.7.7",
+    "@wdio/mocha-framework": "^7.7.7",
+    "@wdio/spec-reporter": "^7.7.7",
+    "@wdio/sync": "^7.7.7",
+    "chai": "^4.3.4",
+    "chai-webdriverio": "^1.0.0",
+    "chromedriver": "^91.0.1",
+    "dotenv": "^10.0.0",
+    "wdio-chromedriver-service": "^7.2.0",
+    "webdriverio": "^7.7.7"
+  },
+  "dependencies": {
+    "fibers": "^5.0.0"
+  }
+}
