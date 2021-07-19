@@ -1,0 +1,31 @@
+[ {
+  "uid" : "432b155de02a6ae3",
+  "name" : "Should be able to log in/out of the application as a problem user",
+  "time" : {
+    "start" : 1626679308557,
+    "stop" : 1626679318602,
+    "duration" : 10045
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "86ef97afc247f12d",
+  "name" : "Should be able to log in/out of the web application as a standard user",
+  "time" : {
+    "start" : 1626679307550,
+    "stop" : 1626679308556,
+    "duration" : 1006
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "46e0a1aad6fa62a0",
+  "name" : "Should be unable to log in",
+  "time" : {
+    "start" : 1626679318605,
+    "stop" : 1626679328636,
+    "duration" : 10031
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

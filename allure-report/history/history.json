@@ -1,0 +1,62 @@
+{
+  "1c4a70fe6d0cde9850948e6f0ae3985c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "432b155de02a6ae3",
+      "status" : "broken",
+      "statusDetails" : "element (\"h4=Accepted usernames are:\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1626679308557,
+        "stop" : 1626679318602,
+        "duration" : 10045
+      }
+    } ]
+  },
+  "e70b5fba24501e3e565b67d65c722c02" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "46e0a1aad6fa62a0",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"#user-name\" because element wasn't found",
+      "time" : {
+        "start" : 1626679318605,
+        "stop" : 1626679328636,
+        "duration" : 10031
+      }
+    } ]
+  },
+  "d9e19d1d7df024b725909df1e9bcfe92" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "86ef97afc247f12d",
+      "status" : "broken",
+      "statusDetails" : "inventoryPage.pageTitle.waitForDisplayed is not a function",
+      "time" : {
+        "start" : 1626679307550,
+        "stop" : 1626679308556,
+        "duration" : 1006
+      }
+    } ]
+  }
+}

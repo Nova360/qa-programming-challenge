@@ -1,0 +1,64 @@
+{
+  "uid" : "46e0a1aad6fa62a0",
+  "name" : "Should be unable to log in",
+  "fullName" : "Login page tests.Should be unable to log in",
+  "historyId" : "e70b5fba24501e3e565b67d65c722c02",
+  "time" : {
+    "start" : 1626679318605,
+    "stop" : 1626679328636,
+    "duration" : 10031
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call click on element with selector \"#user-name\" because element wasn't found",
+  "statusTrace" : "Error: Can't call click on element with selector \"#user-name\" because element wasn't found\n                    at Login.login (/home/nova/Documents/qa-programming-challenge/pageObjects/login.page.js:11:28)\n                    at Context.<anonymous> (/home/nova/Documents/qa-programming-challenge/test/specs/Login/login.test.js:29:19)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login page tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Login page tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should be unable to log in"
+  }, {
+    "name" : "package",
+    "value" : "Login page tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "46e0a1aad6fa62a0.json",
+  "parameterValues" : [ "chrome-91.0.4472.114" ]
+}

@@ -8,29 +8,31 @@ QA programming challenge to demo automation capabilities.
 
 2. #### Launch-Tests
 
-   Run **npm run test** to launch/run test script.
+   Run **npm run test** to launch/run all suites
+   Run **npm run inventory** to launch/run inventory suite
+   Run **npm run login** to launch/run login suite
+   Run **npm run cart** to launch/run cart suite
+   Run **npm run footer** to launch/run footer suite
   
-   TODO:
-   inventory page : 
-   - view single product (Confirmation part is failing)
-   - sort products (Patially working)
-
-   cart:
-   - add product to cart (add checks)
-   - remove prod from cart (add checks)
-   - do above on single product view (Partial Complete)
-   - view cart (DONE) 
-   - remove from cart page
-   -go back to shopping page(DONE)
-   - go to checkout page
-
-
-   footer:
-   - check all links in footer
-   check that footer appears on inventory and cart page 
+3. #### Reporting
+   First time generating and viewing report:
+      Run **allure generate [allure_output_dir] && allure open**
    
+   Generate fresh report:
+      Run **allure generate --clean**
 
+   Open/Start report server:
+      Run **allure open**
+
+
+   TODO:
+   cart:
+   - remove prod from cart (add checks)
+   - remove from cart page
+   - go to checkout page
+   
    logout:
    - logout as each user
    - wait for auto logout
    - check that prod remains in cart after log and login
+   logout from each page

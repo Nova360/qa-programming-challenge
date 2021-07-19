@@ -1,0 +1,64 @@
+{
+  "uid" : "432b155de02a6ae3",
+  "name" : "Should be able to log in/out of the application as a problem user",
+  "fullName" : "Login page tests.Should be able to log in/out of the application as a problem user",
+  "historyId" : "1c4a70fe6d0cde9850948e6f0ae3985c",
+  "time" : {
+    "start" : 1626679308557,
+    "stop" : 1626679318602,
+    "duration" : 10045
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"h4=Accepted usernames are:\") still not displayed after 10000ms",
+  "statusTrace" : "Error: element (\"h4=Accepted usernames are:\") still not displayed after 10000ms\n                    at processTicksAndRejections (node:internal/process/task_queues:94:5)\n                    at Context.<anonymous> (/home/nova/Documents/qa-programming-challenge/test/specs/Login/login.test.js:20:28)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login page tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Login page tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should be able to log in/out of the application as a problem user"
+  }, {
+    "name" : "package",
+    "value" : "Login page tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "432b155de02a6ae3.json",
+  "parameterValues" : [ "chrome-91.0.4472.114" ]
+}

@@ -1,0 +1,48 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Login page tests",
+    "children" : [ {
+      "name" : "Should be able to log in/out of the web application as a standard user",
+      "uid" : "86ef97afc247f12d",
+      "parentUid" : "a594e20c21a8201f2d9da187e4506717",
+      "status" : "broken",
+      "time" : {
+        "start" : 1626679307550,
+        "stop" : 1626679308556,
+        "duration" : 1006
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Should be able to log in/out of the application as a problem user",
+      "uid" : "432b155de02a6ae3",
+      "parentUid" : "a594e20c21a8201f2d9da187e4506717",
+      "status" : "broken",
+      "time" : {
+        "start" : 1626679308557,
+        "stop" : 1626679318602,
+        "duration" : 10045
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "Should be unable to log in",
+      "uid" : "46e0a1aad6fa62a0",
+      "parentUid" : "a594e20c21a8201f2d9da187e4506717",
+      "status" : "broken",
+      "time" : {
+        "start" : 1626679318605,
+        "stop" : 1626679328636,
+        "duration" : 10031
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    } ],
+    "uid" : "a594e20c21a8201f2d9da187e4506717"
+  } ]
+}
