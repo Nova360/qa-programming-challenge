@@ -27,16 +27,6 @@ describe("Login/Logout page tests", function () {
         inventoryPage.logout()
     });
 
-    it("Should be able to log in/out of the application as a glitched user", () => {
-        loginPage.h4Header.waitForDisplayed()
-        assert.equal("Accepted usernames are:", loginPage.h4Header.getText())
-        loginPage.login(data.glitchedUser)
-        //browser.waitUntil(()=>loginPage.login(data.glitchedUser), {timeout: 6000,})
-        inventoryPage.pageTitle.waitForDisplayed()
-        assert.equal("PRODUCTS", inventoryPage.pageTitle.getText())
-        inventoryPage.logout()
-    });
-
     it("Should be unable to log in", () => {
         loginPage.login(data.lockedOut)
         loginPage.errorField.isDisplayed()
@@ -52,6 +42,17 @@ describe("Login/Logout page tests", function () {
         inventoryPage.cartBtn.waitForExist()
         inventoryPage.cartBtn.click()
         assert.equal(label,inventoryPage.productLabel.getText())
+        inventoryPage.logout()
     })
+    
+        it("Should be able to log in/out of the application as a glitched user", () => {
+        loginPage.h4Header.waitForDisplayed()
+        assert.equal("Accepted usernames are:", loginPage.h4Header.getText())
+        loginPage.login(data.glitchedUser)
+        //browser.waitUntil(()=>loginPage.login(data.glitchedUser), {timeout: 6000,})
+        inventoryPage.pageTitle.waitForDisplayed()
+        assert.equal("PRODUCTS", inventoryPage.pageTitle.getText())
+        inventoryPage.logout()
+    });
 
 })
