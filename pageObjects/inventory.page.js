@@ -1,5 +1,3 @@
-const { default: $ } = require("webdriverio/build/commands/browser/$")
-
 // const { default: $ } = require("webdriverio/build/commands/browser/$")
 class Inventory {
     get pageTitle() { return $(".title") }
@@ -28,6 +26,7 @@ class Inventory {
     }
 
     logout(){
+        this.burgerMenu.waitForExist()
         this.burgerMenu.isDisplayed()
         this.burgerMenu.click()
         this.logoutBtn.waitForDisplayed()

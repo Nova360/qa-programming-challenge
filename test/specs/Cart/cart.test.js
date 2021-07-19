@@ -23,21 +23,20 @@ describe("Cart tests", function () {
         inventoryPage.viewProduct(4)
         inventoryPage.addItemToCartBtn.click()
         inventoryPage.backToProductsBtn.click()
+        browser.pause(2000)
     })
 
     it("Should remove product from cart (Inventory view)", () => {
         cartPage.removeFromCart(4)
         //inventoryPage.cartBtn.click()
-        //assert.equal(label,inventoryPage.productLabel.getText())
-        cartPage.continueShoppingBtn.click()     
+        //assert.equal("",inventoryPage.productLabel.getText())
+        //cartPage.continueShoppingBtn.click()     
     })
 
     it("Should view cart and remove product", () => {
-        //put in checks
         inventoryPage.cartBtn.click()
         cartPage.removeBtn.click()
-       // browser.pause(5000)
+        browser.pause(3000)
     })
 
-    //it("Should go to checkout page")
 })

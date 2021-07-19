@@ -29,15 +29,6 @@ describe("Footer tests", function () {
         browser.closeWindow()
     })
 
-    it("Should open linkedin link in a new tab", () => {
-        browser.switchWindow(/saucedemo/i);
-        footerPage.footerLink(3)
-        browser.switchWindow(/linkedin/i);
-       //expect(browser).toHaveUrlContaining('linkedin')
-        //assert.equal("https://www.linkedin.com/company/sauce-labs/", browser.getUrl())
-        browser.closeWindow()
-    })
-
     it("Should confirm that footer is present on the cart page", () => {
         browser.switchWindow(/saucedemo/i);
         inventoryPage.cartBtn.click()
@@ -45,4 +36,14 @@ describe("Footer tests", function () {
         //expect(footerPage.footer.isExisting()).equals(true)
         expect(footerPage.footer.isDisplayed()).equals(true)
     })
+
+    it("Should open linkedin link in a new tab", () => {
+        browser.switchWindow(/saucedemo/i);
+        footerPage.footerLink(3)
+        browser.switchWindow(/linkedin/i);
+        expect(browser).toHaveUrlContaining('linkedin')
+        //assert.equal("https://www.linkedin.com/company/sauce-labs/", browser.getUrl())
+        browser.closeWindow()
+    })
+
 })

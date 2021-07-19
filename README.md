@@ -24,15 +24,3 @@ QA programming challenge to demo automation capabilities.
    Open/Start report server:
       Run **allure open**
 
-
-   TODO:
-   cart:
-   - remove prod from cart (add checks)
-   - remove from cart page
-   - go to checkout page
-   
-   logout:
-   - logout as each user
-   - wait for auto logout
-   - check that prod remains in cart after log and login
-   logout from each page

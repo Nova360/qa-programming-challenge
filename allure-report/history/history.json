@@ -1,5 +1,43 @@
 {
-  "1c4a70fe6d0cde9850948e6f0ae3985c" : {
+  "1f90f666ce7c72a57dc8387b78598077" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d03c9322d61bcddd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626698661581,
+        "stop" : 1626698661736,
+        "duration" : 155
+      }
+    } ]
+  },
+  "35e20b29f6c105fec046f214f56c53ed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bbf7112869aaf92e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626698662373,
+        "stop" : 1626698662516,
+        "duration" : 143
+      }
+    } ]
+  },
+  "75780cbd3f48024869523c95195876c3" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
@@ -9,37 +47,74 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "432b155de02a6ae3",
+      "uid" : "85b8179d1fd44454",
       "status" : "broken",
-      "statusDetails" : "element (\"h4=Accepted usernames are:\") still not displayed after 10000ms",
+      "statusDetails" : "cartPage.removeBtn.click is not a function",
       "time" : {
-        "start" : 1626679308557,
-        "stop" : 1626679318602,
-        "duration" : 10045
+        "start" : 1626698681204,
+        "stop" : 1626698681356,
+        "duration" : 152
+      }
+    } ]
+  },
+  "327dc5278b6e933b0e3c67e5c0840039" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "81884bdc1cb90fcc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626698661946,
+        "stop" : 1626698662055,
+        "duration" : 109
+      }
+    } ]
+  },
+  "f417b09e7dfbec0af948d187ab4b6aa9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e72af0593886ff15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626698660360,
+        "stop" : 1626698661581,
+        "duration" : 1221
       }
     } ]
   },
   "e70b5fba24501e3e565b67d65c722c02" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "46e0a1aad6fa62a0",
-      "status" : "broken",
-      "statusDetails" : "Can't call click on element with selector \"#user-name\" because element wasn't found",
+      "uid" : "5b1379c35b8cd408",
+      "status" : "passed",
       "time" : {
-        "start" : 1626679318605,
-        "stop" : 1626679328636,
-        "duration" : 10031
+        "start" : 1626698602072,
+        "stop" : 1626698605381,
+        "duration" : 3309
       }
     } ]
   },
-  "d9e19d1d7df024b725909df1e9bcfe92" : {
+  "edeb08fc0ab7bb34d22213ac73c59420" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
@@ -49,13 +124,185 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "86ef97afc247f12d",
+      "uid" : "271b6c2d562593d1",
       "status" : "broken",
-      "statusDetails" : "inventoryPage.pageTitle.waitForDisplayed is not a function",
+      "statusDetails" : "$(...).getText is not a function",
       "time" : {
-        "start" : 1626679307550,
-        "stop" : 1626679308556,
-        "duration" : 1006
+        "start" : 1626698680036,
+        "stop" : 1626698680893,
+        "duration" : 857
+      }
+    } ]
+  },
+  "d53695205650e5e01487910b7d6e3fa3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c817c2dac7558c25",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626698661736,
+        "stop" : 1626698661844,
+        "duration" : 108
+      }
+    } ]
+  },
+  "ecd5993395cef15d140ab1a445928bd6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c8144be466e3fd01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626698680895,
+        "stop" : 1626698681202,
+        "duration" : 307
+      }
+    } ]
+  },
+  "4468c07f64094633e022c69c5ee42b38" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e34aa49e93ee6729",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626698662253,
+        "stop" : 1626698662373,
+        "duration" : 120
+      }
+    } ]
+  },
+  "1c4a70fe6d0cde9850948e6f0ae3985c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "484085451e820d1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626698601526,
+        "stop" : 1626698602072,
+        "duration" : 546
+      }
+    } ]
+  },
+  "ebfcc8c457b7369a97f75d17864224ae" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "26d23f2829017960",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626698662055,
+        "stop" : 1626698662154,
+        "duration" : 99
+      }
+    } ]
+  },
+  "ac20b98f47bdaec1ea2a9848fd117280" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f46c73d4492f6092",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626698662154,
+        "stop" : 1626698662253,
+        "duration" : 99
+      }
+    } ]
+  },
+  "4913c978db4ba19e180dd38c781a2671" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b6082a14b64d8607",
+      "status" : "broken",
+      "statusDetails" : "$(...).getText is not a function",
+      "time" : {
+        "start" : 1626698681202,
+        "stop" : 1626698681204,
+        "duration" : 2
+      }
+    } ]
+  },
+  "4f96af36c76d161c10ec96dcf00041ab" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "288ad7fc6ae1e23f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626698661844,
+        "stop" : 1626698661946,
+        "duration" : 102
+      }
+    } ]
+  },
+  "d9e19d1d7df024b725909df1e9bcfe92" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "95862481e3393d8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626698600235,
+        "stop" : 1626698601526,
+        "duration" : 1291
       }
     } ]
   }
