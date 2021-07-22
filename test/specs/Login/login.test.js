@@ -35,10 +35,10 @@ describe("Login/Logout page tests", function () {
 
     it("Product added to cart should remain after logging out/in", ()=>{
         loginPage.clearLogin()
-        loginPage.login(standardUser)
+        loginPage.login(data.standardUser)
         let label = cartPage.addtoCart(1)
         inventoryPage.logout()
-        loginPage.login(standardUser)
+        loginPage.login(data.standardUser)
         inventoryPage.cartBtn.waitForExist()
         inventoryPage.cartBtn.click()
         assert.equal(label,inventoryPage.productLabel.getText())
